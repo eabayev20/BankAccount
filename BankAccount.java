@@ -9,7 +9,12 @@ public class BankAccount {
     password = p;
 
   }
-  
+  public static getbalance(double balance) {
+    return balance;
+  }
+  public static getaccountID(int accountID) {
+    return accountID;
+  }
 
 
 
