@@ -1,21 +1,23 @@
 public class BankAccount {
 
-  private double balance;
-  private int accountID;
-  private String password;
-  public bank( int a, String p ) {
+  private double balance ;
+  private int accountID ;
+  private String password ;
+  public BankAccount( int a, String p ) {
     balance = 0.0;
     accountID = a;
     password = p;
 
   }
-  public static getbalance(double balance) {
+  public double getBalance() {
     return balance;
   }
-  public static getaccountID(int accountID) {
+  public int getAccountID() {
     return accountID;
   }
-
+  public void setPassword (String newPass) {
+    password = newPass;
+  }
 
 
 }
